@@ -1,0 +1,20 @@
+create database Rosao_BD;
+
+use Rosao_BD;
+create table estudiante(
+id int primary key,
+nombre varchar (50),
+fechaNacimiento date
+);
+select * from estudiante;
+
+insert into estudiante (id, nombre,fechaNacimiento)values (1,'Valentino', '2006-11-10'),(2, 'Eduardo', '2006-11-22');
+
+delete from estudiante where id =1;
+select * from estudiante;
+
+create table materias;
+codigo int primary key , nombre varchar (50)),
+select * from materias ;
+insert into materias (codigo,materias) values (20 , 'base de datos'),
+select * from materias;
